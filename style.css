@@ -64,8 +64,8 @@ footer {
 }
 
 #website-awesome {
-    font-weight: 900px;
-    color: white;
+    font-weight: 900;
+    color: #222222;
     font-size: 20px;
     grid-column: 1;
     grid-row: 1;
@@ -106,4 +106,9 @@ button {
 
 button:hover {
       background-color: #1d4ed8; 
+}
+
+#content {
+    color: #222222;
+    font-size:  18px;
 }
