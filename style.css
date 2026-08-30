@@ -39,7 +39,7 @@ a {
     font-size: 18px;
 }
 
-p {
+p.footer {
     color: white;
     font-size: 20px;
     font-weight: 900;
@@ -60,10 +60,13 @@ footer {
     align-items: center;
     padding: 40px 70px;
     margin: 0 auto;
-    background-color: #f8fafc;
+    background-color: darkkhaki;
 }
 
-.website-awesome {
+#website-awesome {
+    font-weight: 900px;
+    color: white;
+    font-size: 20px;
     grid-column: 1;
     grid-row: 1;
     margin: 0 0 10px 0;
@@ -84,6 +87,10 @@ footer {
     width: 400px;
     height: auto;
     border-radius: 8px;
+    border: 8px;
+    background-color: #1d4ed8;
+    padding: 15px;
+    height: 150px;
 }
 button {
     background-color:  #2563eb;
