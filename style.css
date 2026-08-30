@@ -53,6 +53,24 @@ footer {
 }
 
 .main-content {
-    
-    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    background-color:  #2563eb;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2)
+}
+
+button:hover {
+      background-color: #1d4ed8; 
 }
