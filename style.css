@@ -60,9 +60,7 @@ a {
     grid-template-columns: minmax(0, 1fr) minmax(280px, 400px);
     column-gap: 80px;
     align-items: center;
-
     padding: 60px 70px;
-
     background-color: darkkhaki;
 }
 
@@ -117,18 +115,12 @@ a {
 button {
     background-color: #2563eb;
     color: #ffffff;
-
     font-family: Arial, Helvetica, sans-serif;
-
     padding: 12px 14px;
-
     border: none;
     border-radius: 8px;
-
     cursor: pointer;
-
     transition: all 0.2s ease;
-
     box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2);
 }
 
@@ -152,10 +144,17 @@ button:hover {
 }
 
 #info {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkkhaki;
     font-size: 20px;
     color: #222222;
 }
+.information-section {
+    background-color: darkkhaki;
 
+}
 
 /* =========================
    IMAGE CARDS
@@ -199,30 +198,35 @@ button:hover {
    QUOTE
 ========================= */
 
+
 .container-qoute {
-    background-color: #E5E7EB;
-
-    min-height: 350px;
-
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 320px;
+    padding: 60px 10%;
+    background-color: #e5e7eb;
+    color: #1f2937;
 }
 
 .Varezys-qoute {
-    margin: 0;
-
-    padding: 20px;
-
-    max-width: 900px;
-
+    max-width: 750px;
+    font-size: 26px;
     font-style: italic;
-    font-size: 25px;
-
+    line-height: 1.4;
     text-align: center;
 }
 
+.Varezys-qoute p {
+    margin: 0 0 20px;
+}
 
+.Varezys-qoute strong {
+    display: block;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+}
 /* =========================
    FOOTER
 ========================= */
