@@ -59,11 +59,13 @@ a {
     z-index: 2;
     color: white;
     padding: 150px 50px;
+    
 }
 
 #perfect {
     font-weight: 900;
     font-size: 30px;
+
 }
 
 #saying {
@@ -71,3 +73,23 @@ a {
     max-width: 500px;   
 }
 
+#cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Space between buttons */
+}
+
+.button-wrapper {
+    margin: 10px;
+}
+
+button {
+    padding: 8px 12px 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: orange;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
